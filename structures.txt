@@ -1,0 +1,7 @@
+Arrays -> Random Access, Static Allocation, we insert and read numbers based on index
+
+Linked List -> Both Sequential and Random Access, Dynamically allocated, can be inserted dynamically, can also insert at first, last, middle and can access them with an index or continous with iteration.
+
+Stack -> Sequential Access, Dynamically allocated, the first inserted record can only be accessed at last. 
+
+Queue -> Sequential Access, Dynamically allocated, the first inserted record can be accessed first. 
