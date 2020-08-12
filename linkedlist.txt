@@ -1,0 +1,21 @@
+LinkedList 
+
+addFirst() -> 1. Create a node
+2. If head is not null go to next step 
+3. Mention the next node address in new node
+4. place the current node address in head
+
+addLast() ->
+1. Create a new node
+2. Take a temp as head and traverse to the last node until next is not equal to null
+3.  Now change the next of the last node to address of new node, so a link is created to the new node at last
+
+addInMiddle() ->
+1. Create a new node
+2. Using the temp, traverse to find the node B.
+3. Now change the next of B to Addresss of E, then next of E to the previous next of B. 
+4. Hence the new link is formed and a new node is added in middle
+
+Delete at an Index ->
+1. Traverse the list to find the position of node 
+2. 

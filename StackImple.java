@@ -1,10 +1,9 @@
 import java.util.Arrays;
 
-class Stack{
+class Stack1{
 	
 	private int size = -1;
 	String [] arr = new String[5];
-	
 	boolean isEmpty(){
 		if(size==0){
 			return true;
@@ -13,15 +12,24 @@ class Stack{
 		}
 	}
 	
+	void sizeCheck(){
+		int newSize = size * 2;
+		arr = Arrays.copyOf(arr, newSize);
+	}
+	
 	void push(String element){
+		
+		if(arr.length<=size+2){
+			sizeCheck();
+		}
 		
 		if(size==-1){
 			arr[0] = element;
 			size = 0;
 		}else{
+			
 			arr[++size] = element;
 		}
-		//System.out.println("Size from push" + size);
 	}
 	
 	String pop(){
@@ -48,10 +56,13 @@ public class StackImple {
 
 	public static void main(String[] args) {
 		
-		Stack st = new Stack();
+		Stack1 st = new Stack1();
 		
 		st.push("hello");
 		st.push("Gupta");
+		st.push("Weber");
+		st.push("Weber");
+		st.push("Weber");
 		st.push("Weber");
 		System.out.println(st.toString());
 		System.out.println("The Element that's popped is "+ st.pop());
