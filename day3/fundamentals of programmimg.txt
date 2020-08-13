@@ -14,6 +14,8 @@ Store data in array and process elements : Data can be stored in arrays with the
 
 Pointers :- Pointer is a kind of variable which is used to store the address of another variable, so this points to that variable in the memory. In java this is done with references
 Functions :- A procedure or a reusable block of code which can be called any number of times in a code, it can return values back or can also print.
+Call By Value :- 
+Call By Reference :- 
 Memory Allocation :- When a variable or an object is created, certain storage is allocated for that variable. 
 DeMemory Allocation :- When a variable which is assigned a store isn't been used anywhere of the code, it doesn't store any useful information and is eligible for deletion and it is bone by Garbage Collector.
 Memory Leakage :- When a certain memory is allocated to a variable and isn't cleared even when not using it is termed as memory Leakage
