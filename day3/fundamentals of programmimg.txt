@@ -30,4 +30,4 @@ LinkedList :-  Both Sequential and Random Access, Dynamically allocated, can be 
                can also insert at first, last, middle and can access them with an index or continous with iteration. 
                They can also be used to store collection of data but easy to access, insert, delete and update.
 
-Binary Tree :- 
+Binary Tree :- It's a tree datastructure in which every node has data, and address of left and right nodes. The first node is called root node and remaining are all the children of it.
