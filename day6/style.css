@@ -1,0 +1,23 @@
+
+#employee {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+#employee td, #employee th {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+
+
+#employee tr:hover {background-color: #ddd;}
+
+#employee th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgba(0, 195, 255, 0.938);
+  color: white;
+}

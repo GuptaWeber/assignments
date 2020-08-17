@@ -1,3 +1,4 @@
+Day1 :
 Source Code :- The human understandable code written by the developers of the software.
 Object Code :- The original source code which is compiled once and it is understandable by machine. 
 Keywords :- They are reserved words in any programming language like int, switch they are pre defined words and can't be used as variables
@@ -11,16 +12,14 @@ Loop Construct :- Instead of repeteting certain code or when iterations are need
 Declare Array : int arr[] = new Array[5];
 Store data in array and process elements : Data can be stored in arrays with their index and while processing many kinds of internal methods can be used like sort, equals or fill
 
-
+Day 2:
 Pointers :- Pointer is a kind of variable which is used to store the address of another variable, so this points to that variable in the memory. In java this is done with references
 Functions :- A procedure or a reusable block of code which can be called any number of times in a code, it can return values back or can also print.
-Call By Value :- 
-Call By Reference :- 
 Memory Allocation :- When a variable or an object is created, certain storage is allocated for that variable. 
 DeMemory Allocation :- When a variable which is assigned a store isn't been used anywhere of the code, it doesn't store any useful information and is eligible for deletion and it is bone by Garbage Collector.
 Memory Leakage :- When a certain memory is allocated to a variable and isn't cleared even when not using it is termed as memory Leakage
 
-
+Day3:
 Data Structures :- Data Structures are a way of organizing a certain kind of data avaiable based on kind of application or speed or accessibility to search in a specific data and ordered accordingly. LinkedList, Stack, Queue, Binary Tree etc can be considered as Data Structures.
 Queue :- It is a datastructure which follows FIFO, where there are front and rear of a queue, initially, the front and rear points to the same block if the queue is empty.
          Enqueue :- Inserting a new element to the queue, the front stays the same and rear updates to the next index.

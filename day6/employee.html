@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Details</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <h1>Employee Details</h1>
+    <table>
+        <tr>
+            <td> <label> Empno </label> </td>
+            <td> <input type="text" id="empno" name ="empno" /></td>
+        </tr>
+
+        <tr>
+            <td> <label> Emp Name </label> </td>
+            <td> <input type="text" id="ename" name ="ename" /></td>
+        </tr>   
+
+        <tr>
+            <td> <label> Salary</label> </td>
+            <td> <input type="text" id="salary" name ="salary" /></td>
+        </tr> 
+        
+        <tr>
+            <td><input type="button" value="submit" onclick="populate()"></td>  
+        </tr>
+    </table>
+
+    <table id="employee" border="1">
+        <tr> 
+            <th>Employee Number</th>
+            <th>Employee Name</th>
+            <th>Salary</th>
+        </tr>
+
+        <tr> 
+            <td> <div id="empnoP"></div></td>
+            <td> <div id="enameP"></div></td>
+            <td> <div id="salaryP"></div></td>
+        </tr>
+    </table>
+
+    <script>
+        
+        function populate(){
+            console.log('Hello')
+            empno = document.getElementById('empno').value;
+            ename = document.getElementById('ename').value;
+            salary = document.getElementById('salary').value;
+
+            document.getElementById('empnoP').innerHTML = empno;
+            document.getElementById('enameP').innerHTML = ename;
+            document.getElementById('salaryP').innerHTML = salary;
+
+        }
+
+
+    </script>
+
+
+
+</body>
+</html>
