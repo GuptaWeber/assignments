@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Table</title>
+</head>
+<body>
+    <input type="text" id="name" name="name" />
+    <input type="button" value="Add" onclick="array()">
+
+    <table border="1">
+    
+        <tr id="namesRow">
+            
+        </tr>
+    </table>
+
+    <script>
+        var names = [] 
+        function array(){
+
+            namesRow= document.getElementById("namesRow");
+            name = document.getElementById("name").value; 
+
+           names.push("<td>" + name + "</td>")
+           namesRow.innerHTML  = names 
+        }
+    </script>
+    
+
+</body>
+</html>

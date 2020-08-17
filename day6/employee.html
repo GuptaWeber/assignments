@@ -36,7 +36,7 @@
             <th>Salary</th>
         </tr>
 
-        <tr> 
+        <tr id="tableContent"> 
             <td> <div id="empnoP"></div></td>
             <td> <div id="enameP"></div></td>
             <td> <div id="salaryP"></div></td>
@@ -51,10 +51,11 @@
             ename = document.getElementById('ename').value;
             salary = document.getElementById('salary').value;
 
-            document.getElementById('empnoP').innerHTML = empno;
-            document.getElementById('enameP').innerHTML = ename;
-            document.getElementById('salaryP').innerHTML = salary;
+            tableRow = document.getElementById();
 
+            tableRow.innerHTML = "<td>" + empno + "</td> <td>" + ename + "</td><td>" + salary + "</td>"
+
+   
         }
 
 
