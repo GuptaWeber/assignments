@@ -1,20 +1,17 @@
 
-#employee {
+#namesTable {
   border-collapse: collapse;
   width: 50%;
 }
 
-#employee td, #employee th {
+#namesTable td, #namesTable th {
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 8px;
 }
 
 
-
-#employee tr:hover {background-color: #ddd;}
-
-#employee th {
+#namesTable th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;

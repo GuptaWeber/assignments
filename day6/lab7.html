@@ -4,26 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Array Table</title>
+    <style>
+        #namesTable {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+#namesTable td, #namesTable th {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+
+#namesTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgba(0, 195, 255, 0.938);
+  color: white;
+}
+
+    </style>
 </head>
 <body>
     <input type="text" id="name" name="name" />
     <input type="button" value="Add" onclick="array()">
 
-    <table border="1">
-    
-        <tr id="namesRow">
-            
-        </tr>
+    <table id="namesTable" border="1">
+
     </table>
 
     <script>
         var names = [] 
         function array(){
 
-            namesRow= document.getElementById("namesRow");
+            namesRow= document.getElementById("namesTable");
             name = document.getElementById("name").value; 
 
-           names.push("<td>" + name + "</td>")
+           names.push("<tr><td>" + name + "</tr></td>")
            namesRow.innerHTML  = names 
         }
     </script>
