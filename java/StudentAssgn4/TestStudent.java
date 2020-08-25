@@ -6,7 +6,7 @@ public class TestStudent {
 		
 		Student[] students = new Student[7];
 		
-		students[0] = new CommerceStudent("Ratnam","123","ECE","KLEF");
+		students[0] = new EnggStudent("Ratnam","123","ECE","KLEF");
 		students[1] = new EnggStudent("Gupta","404","ECE","KLEF");
 		students[2] = new EnggStudent("Rohit","345","ECE","KLEF");
 		students[3] = new BscStudent("Weber","101","Computers","Gowtham");
