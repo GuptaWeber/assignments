@@ -8,11 +8,11 @@ public class Book {
 	
 
 	public Book(){
-		ISBN = 12233344;
-		name = "Learning Spring 5.0";
-		price = 2250;
-		publication = "Packt";
-		author = "Tejaswini Mandar Jog";
+		ISBN = 0;
+		name = null;
+		price = 0;
+		publication = null;
+		author = null;
 	}
 	
 	public Book(long ISBN, String name, double price ){
@@ -81,5 +81,9 @@ public class Book {
 	public void setAuthor(String author) {
 		this.author = author;
 	}
+
+
+	
+	
 
 }
