@@ -30,6 +30,7 @@ public class Book {
 	
 	public void display(){
 		System.out.println("The ISBN of book is " + ISBN + " Name :"+name + "\n" +" Price :"+price+ " published by :"+ publication + "Written by: "+ author);
+		System.out.println("--------------------------------- --------------- -----------------------------");
 	}
 	
 	
@@ -81,9 +82,4 @@ public class Book {
 	public void setAuthor(String author) {
 		this.author = author;
 	}
-
-
-	
-	
-
 }
