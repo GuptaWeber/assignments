@@ -67,9 +67,6 @@ class EmpForm extends Component{
                             <td>Projects</td>
                             <td><select value={projects} onChange={(e)=>{this.setState({projects:e.target.value})}}> <option value="">Select a Project</option> <option value="react">React</option><option value="spring">Spring</option></select></td>
                         </tr>
-                        <tr>
-                            <td colSpan="2"><input type="submit" /></td>
-                        </tr>
                    </tbody>
                 </table>
         <h3>Empno : {empno}</h3>       
