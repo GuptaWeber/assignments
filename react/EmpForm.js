@@ -76,7 +76,7 @@ class EmpForm extends Component{
         <h3>Ename : {ename}</h3>
         <h3>Gender : {gender}</h3>
         <h3>Projects : {projects}</h3>
-        <h3>Location : {this.state.location.map((reptile) => <li>{reptile}</li>)}</h3>
+        <h3>Location : {this.state.location.map((loc) => <li>{loc}</li>)}</h3>
             </div>
         );
     }
